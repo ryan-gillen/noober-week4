@@ -35,8 +35,6 @@ function pageLoad() {
   }
 
   passenger1Name = `${ride[0].passengerDetails.first} ${ride[0].passengerDetails.last}`
-  // console.log(passenger1Name)
-
   passenger1Phone = ride[0].passengerDetails.phoneNumber
   passenger1NumberOfPassengers = ride[0].numberOfPassengers
   passenger1PickupAddressLine1 = ride[0].pickupLocation.address
